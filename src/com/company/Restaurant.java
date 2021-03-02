@@ -1,13 +1,7 @@
 package com.company;
 
-public class Restaurant extends Location implements Classifiable, Payable {
+public class Restaurant extends Location implements Classifiable {
     private double rank;
-    private double price; // pretul se refera la meniul zilei
-
-    @Override
-    public double getTicketprice() {
-        return price;
-    }
 
     @Override
     public double getRank() {
@@ -18,7 +12,4 @@ public class Restaurant extends Location implements Classifiable, Payable {
         this.rank = rank;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
 }
