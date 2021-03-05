@@ -8,13 +8,12 @@ public class Main {
 
         City c = new City(6);
         // create the locations
-
-        Hotel v1 = new Hotel();
-        Museum v2 = new Museum();
-        Museum v3 = new Museum();
-        Church v4 = new Church();
-        Church v5 = new Church();
-        Restaurant v6 = new Restaurant();
+        Location v1 = new Hotel();
+        Location v2 = new Museum();
+        Location v3 = new Museum();
+        Location v4 = new Church();
+        Location v5 = new Church();
+        Location v6 = new Restaurant();
 
        //set cost for location
         v1.setCostLoc(v2, Integer.valueOf(10));
