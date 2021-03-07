@@ -1,7 +1,8 @@
 package com.company;
 
 public interface Payable {
-    public abstract double getTicketprice();
+    double getTicketPrice();
+    void setTicketPrice(double price);
 
 
 }

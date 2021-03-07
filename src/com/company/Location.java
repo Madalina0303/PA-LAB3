@@ -5,7 +5,11 @@ import java.util.Map;
 
 public abstract class Location {
     private String name;
-    private Map<Location, Integer> cost = new HashMap<>();
+    private Map<Location, Integer> cost;
+    public Location()
+    {
+        cost=new HashMap<>();
+    }
 
     public void setName(String name) {
         this.name = name;

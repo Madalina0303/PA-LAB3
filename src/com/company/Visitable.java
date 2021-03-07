@@ -4,9 +4,13 @@ import java.time.LocalTime;
 
 public interface Visitable {
 
-    public abstract LocalTime getOpen();
+    LocalTime getOpen();
 
-    public abstract LocalTime getClose();
+    LocalTime getClose();
+
+    void setOpen(LocalTime open);
+
+    void setClose(LocalTime close);
 
 
 }

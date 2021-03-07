@@ -1,5 +1,6 @@
 package com.company;
 
 public interface Classifiable {
-    public abstract double getRank();
+    double getRank();
+    void setRank(double rank);
 }
