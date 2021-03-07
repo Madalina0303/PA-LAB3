@@ -8,12 +8,12 @@ public class Main {
 
 
         // create the locations
-        Location v1 = new Hotel();
-        Location v2 = new Museum(10, LocalTime.of(7, 30), LocalTime.of(20, 0));
-        Location v3 = new Museum();
-        Location v4 = new Church();
-        Location v5 = new Church();
-        Location v6 = new Restaurant();
+        Hotel v1 = new Hotel();
+        Museum v2 = new Museum(10, LocalTime.of(7, 30), LocalTime.of(20, 0));
+        Museum v3 = new Museum();
+        Church v4 = new Church();
+        Church v5 = new Church();
+        Restaurant v6 = new Restaurant();
 
         //set cost for location
 
