@@ -27,12 +27,12 @@ public class Church extends Location implements Visitable {
         return close;
     }
 
-    @Override
+
     public void setOpen(LocalTime open) {
         this.open = open;
     }
 
-    @Override
+
     public void setClose(LocalTime close) {
         this.close = close;
     }

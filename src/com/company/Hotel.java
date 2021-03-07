@@ -15,7 +15,7 @@ public class Hotel extends Location implements Classifiable {
     public double getRank() {
         return rank;
     }
-    @Override
+
     public void setRank(double rank) {
         this.rank = rank;
     }

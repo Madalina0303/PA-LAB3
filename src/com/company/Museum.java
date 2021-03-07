@@ -34,17 +34,17 @@ public class Museum extends Location implements Visitable, Payable {
         return ticketPrice;
     }
 
-    @Override
+
     public void setClose(LocalTime close) {
         this.close = close;
     }
 
-    @Override
+
     public void setOpen(LocalTime open) {
         this.open = open;
     }
 
-    @Override
+
     public void setTicketPrice(double price) {
         this.ticketPrice = price;
     }

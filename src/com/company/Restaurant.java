@@ -16,7 +16,7 @@ public class Restaurant extends Location implements Classifiable {
         return rank;
     }
 
-    @Override
+
     public void setRank(double rank) {
         this.rank = rank;
     }
