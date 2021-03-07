@@ -9,13 +9,17 @@ public class Main {
 
         // create the locations
         Location v1 = new Hotel();
-        Location v2 = new Museum();
+
+        Location v2 = new Museum(10,LocalTime.of(7, 30),LocalTime.of(20, 0));
+        Visitable vv=(Visitable) v2;
         Location v3 = new Museum();
         Location v4 = new Church();
         Location v5 = new Church();
         Location v6 = new Restaurant();
-        
+
        //set cost for location
+       System.out.println("sperr "+ vv.getOpen());
+
         v1.setCostLoc(v2, 10);
         v1.setCostLoc(v3, Integer.valueOf(50));
         v2.setCostLoc(v3, Integer.valueOf(20));

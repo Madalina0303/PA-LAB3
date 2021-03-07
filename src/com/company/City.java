@@ -1,9 +1,10 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class City {
-    private ArrayList<Location> locations;
+    private List<Location> locations;
     private int nrLocation;
     public City(int nrLocation)
     {
@@ -14,7 +15,7 @@ public class City {
         locations.add(lct);
     }
 
-    public ArrayList<Location> getLocations() {
+    public List<Location> getLocations() {
         return locations;
     }
 }
